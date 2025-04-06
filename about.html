@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Banach Space!</h1>
+        <p> A projective measurement on <span class="fancy-name"> Tarun Hariharan </span> </p>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="skills.html">Technical Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Hello! I'm a Chennaiite by birth and heart, Telugu by ancestry and lived a few years in Mumbai, Pune and Michigan, USA. I'm a 1st year undergraduate at IIIT-Hyderabad who loves deep theoretical or philosophical dicussions. Having been a math enthusiast for as long as I can remember, exposure to the abstract world of real analysis and linear algebra was just what I needed to dive into the exciting, mystical world of quantum mechanics and computing. Ensuring communication holds strong in the face of a quantum adversary spoke to me and the abstract math cryptography offered was invigorating. </p>
+                <p>My research interests include:</p>
+                <ul>
+                    <li>Quantum algorithm development</li>
+                    <li>Quantum query complexity and complexity classes</li>
+                    <li>Post-quantum cryptography</li>
+                </ul>
+                <p>When I'm not pouring over quantum supremacy, you can find me playing badminton or grinding blitz games on chess.com (send me a challenge @<a href="https://www.chess.com/member/tarmath18" target="_blank">tarMath18</a>!).</p>
+            </div>
+            <div class="profile-picture">
+                <div class="photo-space">
+                    <img src="profile.jpg" alt="Profile Picture" class="profile">
+                </div>
+                <div class="photo-space">
+                    <img src="pallikaranai.jpeg" alt="Pallikaranai" class="featured-img">
+                    <img src="northville.jpeg" alt="Northville" class="featured-img">
+                </div>
+                <div class="photo-space">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="cv">
+        <h2>My CV</h2>
+        <a href="cv.pdf" target="_blank" class="cv-link">Download CV</a>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/mathTar" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tarun-hariharan-57b78629a/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/tarmath18/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:tarun18hari@gmail.com" class="social-icon" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">&copy; 2025 Tarun Hariharan. All rights reserved.</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
+    <script src="events.js"></script>
+</body>
+</html>

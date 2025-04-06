@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Banach Space!</h1>
+        <p> A projective measurement on <span class="fancy-name"> Tarun Hariharan </span> </p>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="skills.html">Technical Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="welcome">
+        <h2>Current Interests</h2>
+        <p>Quantum Algorithms, Quantum Computing, Modern Cryptography, Post-Quantum Cryptography</p>
+        <div class="photo-space">
+
+            <img src="quantum.jpeg" alt="Quantum Computing Visualization" class="featured-img" >
+        </div>
+    </section>
+    
+    <section id="featured">
+        <h2>Snippets of my Notes</h2>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <h3>Quantum Algorithms</h3>
+                <div class="quantum-notes-collage">
+                    <div class="photo-space">
+                        <img src="qAlgos1.png" alt="Quantum Algorithm Notes 1" class="featured-img">
+                    </div>
+                    <div class="photo-space">
+                        <img src="qAlgos2.png" alt="Quantum Algorithm Notes 2" class="featured-img">
+                    </div>
+                    <div class="photo-space">
+                        <img src="qAlgos3.png" alt="Quantum Algorithm Notes 3" class="featured-img">
+                    </div>
+                    <div class="photo-space">
+                        <img src="qAlgos4.png" alt="Quantum Algorithm Notes 4" class="featured-img">
+                    </div>
+                    <div class="photo-space">
+                        <img src="qAlgos5.png" alt="Quantum Algorithm Notes 5" class="featured-img">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="featured-item">
+                <h3>Cryptography and Quantum Verification</h3>
+                <div class="photo-space">
+                    <img src="crypto.png" alt="Cryptography Notes" class="featured-img">
+                </div>
+                <div class="photo-space">
+                    <img src="qPaper.png" alt="Quantum Paper" class="featured-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="text-analysis">
+        <h2>Linguistic Analysis</h2>
+        <textarea id="text-input" placeholder="Paste text here (10,000+ words)"></textarea>
+        <button onclick="analyzeText()">Analyze</button>
+        <div id="analysis-results"></div>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/mathTar" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tarun-hariharan-57b78629a/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/tarmath18/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:tarun18hari@gmail.com" class="social-icon" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">&copy; 2025 Tarun Hariharan. All rights reserved.</p>
+    </footer>
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="events.js"></script>
+    <script src="textAnalysis.js"></script>
+</body>
+</html>

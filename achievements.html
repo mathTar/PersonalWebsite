@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Banach Space!</h1>
+        <p> A projective measurement on <span class="fancy-name"> Tarun Hariharan </span> </p>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html" class="active">Achievements</a></li>
+                <li><a href="skills.html">Technical Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievements-grid" style="display: flex; flex-direction: column; align-items: center; gap: 40px;">
+            <div class="achievement-item">
+                <h3>Top in the World - Mathematics</h3>
+                <div class="photo-space">
+                    <img src="topworld.jpg" alt="Top in the World" class="featured-img">
+                </div>
+                <p>Outstanding Cambridge Learner Awards - Top in the World in Cambridge International AS Mathematics Nov 2022</p>
+                <p class="achievement-date">December 2023</p>
+            </div>
+            
+            <div class="achievement-item">
+                <h3>Top in the Country - Mathematics</h3>
+                <div class="photo-space">
+                    <div class="photo-placeholder">Certificate Not Available Yet</div>
+                </div>
+                <p>Outstanding Cambridge Learner Awards - Top in India in Cambridge International A Level Mathematics Nov 2023</p>
+                <p class="achievement-date">December 2024</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/mathTar" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tarun-hariharan-57b78629a/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/tarmath18/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:tarun18hari@gmail.com" class="social-icon" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">&copy; 2025 Tarun Hariharan. All rights reserved.</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
+    <script src="events.js"></script>
+</body>
+</html>
